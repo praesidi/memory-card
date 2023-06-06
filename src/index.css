@@ -6,6 +6,7 @@ body {
 	background: url('./assets/bg.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: 'Chokokutai', cursive;
 }
 
 body > div {
