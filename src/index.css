@@ -3,10 +3,25 @@
 @tailwind utilities;
 
 body {
+	background: url('./assets/bg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body > div {
 	margin: 0;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
 	min-width: 320px;
 	min-height: 100vh;
+	backdrop-filter: blur(3px);
 }
+
+/*
+Palette
+orange: #ea550d
+yellow: #f5a300
+brown: #4d330a
+*/

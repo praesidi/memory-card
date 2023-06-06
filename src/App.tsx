@@ -1,16 +1,13 @@
-import { useState } from 'react';
+import Header from './components/Header';
+import Body from './components/Body';
+import Footer from './components/Footer';
 
 function App() {
-	const [count, setCount] = useState(0);
-
 	return (
 		<>
-			<h1>Memory Card</h1>
-			<div className='card'>
-				<button onClick={() => setCount((count) => count + 1)}>
-					count is {count}
-				</button>
-			</div>
+			<Header></Header>
+			<Body></Body>
+			<Footer></Footer>
 		</>
 	);
 }
