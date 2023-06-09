@@ -27,7 +27,7 @@ export default function Modal({
 		zIndex: '999',
 		boxShadow: '0 0 16px rgba(0,0,0,0.5)',
 		transition: 'all 0.3s ease-out',
-	};
+	} as React.CSSProperties;
 
 	const overlayStyle = {
 		position: 'fixed',
@@ -41,7 +41,7 @@ export default function Modal({
 		zIndex: '998',
 		backdropFilter: 'blur(3px)',
 		transition: 'all 0.3s ease-out',
-	};
+	} as React.CSSProperties;
 
 	return (
 		<>
