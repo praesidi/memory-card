@@ -11,12 +11,12 @@ export default function Container({
 
 	return (
 		<div
-			className='grid gap-6 w-10/12 my-24
-				2xl:grid-rows-3 2xl:grid-cols-6
-				xl:grid-rows-4 xl:grid-cols-5
-				lg:grid-rows-5 lg:grid-cols-4
+			className='grid gap-6 w-[90%] my-24
+				sm:grid-rows-9 sm:grid-cols-2 
 				md:grid-rows-6 md:grid-cols-3
-				sm:grid-rows-9 sm:grid-cols-2 '
+				lg:grid-rows-5 lg:grid-cols-4
+				xl:grid-rows-4 xl:grid-cols-5
+				2xl:grid-rows-3 2xl:grid-cols-6'
 		>
 			{imageKeys.map((key) => (
 				<Card

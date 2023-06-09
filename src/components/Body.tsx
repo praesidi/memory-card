@@ -42,7 +42,7 @@ export default function Body() {
 
 	return (
 		<>
-			<main className='relative flex flex-col justify-start items-center w-full p-0 m-0'>
+			<main className='relative flex flex-col justify-start items-center w-full max-w-screen-2xl p-0 m-0'>
 				<ScoreBoard score={score} bestScore={bestScore}></ScoreBoard>
 				<Container images={images} onClick={handleClick}></Container>
 			</main>
